@@ -1,3 +1,9 @@
-body { background-color: #008080; margin: 0; padding: 0; cursor: url('../img/cursor.png'), auto; font-family: Arial, sans-serif; }
+@font-face { font-family: tahoma8px; src: url('/font/fs-tahoma-8px.ttf'); }
+	@font-face { font-family: mssansserifbold; src: url('/font/ms_sans_serif_bold.woff'); }
+body { background-color: #008080; margin: 0; padding: 0; cursor: url('../img/cursor.png'), auto; font-family: tahoma8px, Tahoma, Gevena, Verdana, sans-serif; }
+h1, h2 { font-family: mssansserifbold, sans-serif; font-weight: normal; }
 .main-card { text-align: center; margin: auto; background-color: #c5bdc5; width: 800px; height: 1200px; }
 .main-card-content { padding: 10px; }
+table { margin: auto; }
+table, td { padding: 0px; border: 1px solid #000; }
+.desc { padding: 10px; max-width: 300px;}
