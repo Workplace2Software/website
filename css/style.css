@@ -1,9 +1,40 @@
-@font-face { font-family: tahoma8px; src: url('/font/fs-tahoma-8px.ttf'); }
-	@font-face { font-family: mssansserifbold; src: url('/font/ms_sans_serif_bold.woff'); }
-body { background-color: #008080; margin: 0; padding: 0; cursor: url('../img/cursor.png'), auto; font-family: tahoma8px, Tahoma, Gevena, Verdana, sans-serif; }
-h1, h2 { font-family: mssansserifbold, sans-serif; font-weight: normal; }
-.main-card { text-align: center; margin: auto; background-color: #c5bdc5; width: 800px; height: 1200px; }
-.main-card-content { padding: 10px; }
-table { margin: auto; }
-table, td { padding: 0px; border: 1px solid #000; }
-.desc { padding: 10px; max-width: 300px;}
+html {
+  cursor: url("/img/cursor.png"), auto;
+}
+
+a {
+  cursor: url("/img/linksel.png"), auto;
+}
+
+body {
+  background-color: #3c6ea6;
+  color: black;
+  font-family: Verdana, sans-serif;
+}
+.main-window { 
+  padding: 2px;
+  background-color: #d4d0c8;
+	margin: 0 auto;
+	width: 700px;
+	border: 1px solid #808080;
+	}
+.main-window-content {
+  padding: 10px;
+}
+@font-face { font-family: Franklin; src: url("/font/framd.ttf"); }
+h1 {
+  text-align: center;
+  font-family: Franklin, sans-serif;
+  font-weight: normal;
+}
+.navbar {
+  background-image: url("/img/titlegradient.png");
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
